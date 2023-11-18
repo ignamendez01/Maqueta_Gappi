@@ -1,0 +1,331 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.top-bar {
+    background-color: #80c5bf;
+    height: 30px;
+}
+
+.bottom-bar {
+    background-color: white;
+    padding: 30px 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu_logo img {
+    width: 150px;
+    height: auto;
+}
+
+.logo img {
+    width: 350px;
+    height: auto;
+}
+
+.buttons {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 20px;
+}
+
+.regularButton {
+    color: black;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.homeButton {
+    color: #80c5bf;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.cta-button {
+    background-color: #80c5bf;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.space{
+    margin-top: 142px;
+}
+
+.banner {
+    position: relative;
+    height: 465px;
+    width: 100%;
+    background-image: url('Images/Handshake.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.banner_content {
+    position: absolute;
+    font-family: 'Nunito Sans', sans-serif;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+}
+
+.services {
+    text-align: center;
+}
+
+.blueTitle {
+    color: #80c5bf;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 38px;
+}
+
+.service_content {
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+}
+
+.pictures {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pictures p{
+    font-size: 15px;
+    width: 450px;
+}
+
+.picture_1{
+    padding-left: 10%;
+    text-align: center;
+}
+
+.picture_2{
+    padding-right: 10%;
+    text-align: center;
+}
+
+.connection {
+    position: relative;
+    height: 250px;
+    width: 500px;
+    background-image: url('Images/Conections.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.medicine {
+    position: relative;
+    height: 250px;
+    width: 500px;
+    background-image: url('Images/Medicines.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.block {
+    position: absolute;
+    width: 100px;
+    padding: 5px 20px;
+    font-family: 'Nunito Sans', sans-serif;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background-color: #80c5bf;
+    color: white;
+}
+
+.button_area {
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+
+.view_button {
+    background-color: white;
+    color: #80c5bf;
+    padding: 7px 17px;
+    border: 2px solid #80c5bf;
+    border-radius: 25px;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.view_button i {
+    margin-right: 5px;
+    transform: rotate(45deg);
+}
+
+.slogan {
+    background-color: #80c5bf;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.slogan p {
+    font-size: 45px;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.whiteWord {
+    color: white;
+}
+
+.underline {
+    position: relative;
+    text-decoration: none; /* Desactiva el subrayado predeterminado */
+}
+
+.underline::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 3px; /* Grosor del subrayado */
+    background-color: white; /* Color del subrayado */
+    position: absolute;
+    bottom: 2px; /* Ajusta la posición vertical del subrayado (puedes usar cualquier valor negativo para bajarlo) */
+}
+
+.aboutUs {
+    display: flex;
+    align-items: center;
+}
+
+.aboutUsPicture{
+    width: 500px;
+    height: auto;
+}
+
+.aboutUsPictureFrame {
+    padding-top: 53px;
+    padding-bottom: 53px;
+    padding-left: 14%;
+}
+
+.aboutUsTextFrame {
+    padding: 53px 10% 53px 5%;
+}
+
+.aboutUs p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+}
+
+.blueSubtitle {
+    color: #80c5bf;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 18px;
+}
+
+.lastSection {
+    display: flex;
+    background-color: #80c5bf;
+}
+
+.lastSection h1 {
+    color: white;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.lastSection h2 {
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.lastSection p {
+    color: white;
+    font-family: 'Roboto', serif;
+}
+
+.lastSection img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.contact_button {
+    background-color: #80c5bf;
+    color: white;
+    padding: 7px 17px;
+    border: 2px solid white;
+    border-radius: 25px;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.contact_button i {
+    margin-right: 5px;
+    transform: rotate(45deg);
+}
+
+.lastText {
+    padding-left: 10%;
+    padding-right: 10%;
+    align-self: center;
+    width: 60%;
+}
+
+.top-footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.bottom-footer {
+    background-color: #80c5bf;
+    height: 40px;
+    text-align: center;
+    padding-top: 20px;
+    font-family: 'Roboto', serif;
+}
+
+.footer img {
+    width: 200px;
+    height: auto;
+}
+
+.footer p {
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.footer_logo {
+    margin-left: 40px;
+    width: 330px;
+}
+
+.footer a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+}
+
+.footer button {
+    background-color: white;
+    border: none;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.footer_contact {
+    padding-right: 80px;
+}
