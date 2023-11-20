@@ -10,6 +10,12 @@ body {
 }
 
 @font-face {
+    font-family: 'Roboto-Medium';
+    src: url('./Fonts/Roboto/Roboto-Medium.ttf') format('truetype');
+    font-weight: 400;
+}
+
+@font-face {
     font-family: 'Open Sans';
     src: url('./Fonts/Open_Sans/static/OpenSans-Regular.ttf') format('truetype');
     font-weight: 400;
@@ -178,6 +184,7 @@ body {
 .view_button {
     background-color: white;
     color: #80c5bf;
+    font-family: 'Open Sans', sans-serif;
     padding: 7px 17px;
     border: 2px solid #80c5bf;
     border-radius: 25px;
@@ -297,6 +304,7 @@ body {
 
 .contact_button {
     background-color: #80c5bf;
+    font-family: 'Roboto-Medium', serif;
     color: white;
     padding: 7px 17px;
     border: 2px solid white;
