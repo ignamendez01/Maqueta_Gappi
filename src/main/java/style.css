@@ -123,8 +123,10 @@ body {
 }
 
 .pictures p{
-    font-size: 15px;
-    width: 450px;
+    font-size: 12px;
+    margin-left: 7%;
+    font-family: 'Open Sans', sans-serif;
+    width: 420px;
 }
 
 .picture_1{
@@ -207,33 +209,33 @@ body {
 
 .underline {
     position: relative;
-    text-decoration: none; /* Desactiva el subrayado predeterminado */
+    text-decoration: none;
 }
 
 .underline::after {
     content: "";
     display: block;
     width: 100%;
-    height: 3px; /* Grosor del subrayado */
-    background-color: white; /* Color del subrayado */
+    height: 3px;
+    background-color: white;
     position: absolute;
-    bottom: 10px; /* Ajusta la posición vertical del subrayado (puedes usar cualquier valor negativo para bajarlo) */
+    bottom: 10px;
 }
 
 .camouflage {
     color: #80c5bf;
     position: relative;
-    text-decoration: none; /* Desactiva el subrayado predeterminado */
+    text-decoration: none;
 }
 
 .camouflage::after {
     content: "";
     display: block;
     width: 100%;
-    height: 3px; /* Grosor del subrayado */
-    background-color: white; /* Color del subrayado */
+    height: 3px;
+    background-color: white;
     position: absolute;
-    bottom: 10px; /* Ajusta la posición vertical del subrayado (puedes usar cualquier valor negativo para bajarlo) */
+    bottom: 10px;
 }
 
 .aboutUs {

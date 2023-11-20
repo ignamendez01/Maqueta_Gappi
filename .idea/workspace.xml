@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d8b75aaf-0fd1-4349-a98d-db79fdeed0d7" name="Changes" comment="Primer Commit">
-      <change afterPath="$PROJECT_DIR$/src/main/java/scripts.js" afterDir="false" />
+    <list default="true" id="d8b75aaf-0fd1-4349-a98d-db79fdeed0d7" name="Changes" comment="Segundo Commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Home.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Home.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/style.css" afterDir="false" />
@@ -73,7 +72,8 @@
       <workItem from="1700232134222" duration="12840000" />
       <workItem from="1700261723110" duration="10379000" />
       <workItem from="1700334815064" duration="12147000" />
-      <workItem from="1700420987792" duration="6203000" />
+      <workItem from="1700420987792" duration="6671000" />
+      <workItem from="1700479300999" duration="1646000" />
     </task>
     <task id="LOCAL-00001" summary="Primer Commit">
       <created>1700347164930</created>
@@ -82,7 +82,14 @@
       <option name="project" value="LOCAL" />
       <updated>1700347164930</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Segundo Commit">
+      <created>1700428378363</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1700428378363</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -101,6 +108,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Primer Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Primer Commit" />
+    <MESSAGE value="Segundo Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Segundo Commit" />
   </component>
 </project>
